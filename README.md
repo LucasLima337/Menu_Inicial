@@ -19,7 +19,7 @@ ID | AÇÃO
 9  | Sair do sistema
 ---
 
-* Assuntos Revisados com o Script:
+* Assuntos Revisados com os Scripts:
   * Functions;
   * Pointers;
   * Structs;
