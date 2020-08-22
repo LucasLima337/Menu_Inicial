@@ -1,6 +1,6 @@
 # Menu de Buscas e Operações
 
-* Função: O script tem como objetivo realizar buscas e operações em uma Lista Simples;
+* Função: O script tem como objetivo realizar buscas e operações tanto em uma Lista Simples como em uma Lista Encadeada;
 * Contexto: Foi utilizado como contexto, a manipulação de dados de varios usuários, sendo eles o **Nome** e **RG**;
 
 ---
@@ -19,7 +19,7 @@ ID | AÇÃO
 9  | Sair do sistema
 ---
 
-* Assuntos Revisados com o Script:
+* Assuntos Revisados com os Scripts:
   * Functions;
   * Pointers;
   * Structs;
