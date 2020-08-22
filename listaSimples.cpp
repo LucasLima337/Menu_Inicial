@@ -224,7 +224,7 @@ int main() {
         cout << "\nEscolha uma opcao desejada: ";
         cin >> choice;
 
-        system("clear");
+        system("cls");
         bool test = true;
         bool test2 = true;
 
@@ -233,7 +233,7 @@ int main() {
                 cout << "Opcao escolhida: [ 1 ] -- Insercao de um elemento no inicio da lista\n\n";
 
                 askInfo(nome, &rg);
-                system("clear");
+                system("cls");
                 addFirst(grupo, &length, nome, rg);
                 break;
 
@@ -241,7 +241,7 @@ int main() {
                 cout << "Opcao escolhida: [ 2 ] -- Insercao de um elemento no fim da lista\n\n";
 
                 askInfo(nome, &rg);
-                system("clear");
+                system("cls");
                 addLast(grupo, &length, nome, rg);
                 break;
 
@@ -268,7 +268,7 @@ int main() {
 
                     if ((pos - 1) >= 0 && (pos - 1) <= length && length == 0) {
                         test = false;
-                        system("clear");
+                        system("cls");
                         addFirst(grupo, &length, nome, rg);
                     }
 
@@ -278,15 +278,15 @@ int main() {
 
                     else {
                         if ((pos - 1) == 0) {
-                            system("clear");
+                            system("cls");
                             addFirst(grupo, &length, nome, rg);
                         }
                         else if (pos == length + 1) {
-                            system("clear");
+                            system("cls");
                             addLast(grupo, &length, nome, rg);
                         }
                         else {
-                            system("clear");
+                            system("cls");
                             addX(grupo, &length, nome, rg, pos - 1);
                         }
 
@@ -336,17 +336,17 @@ int main() {
                     }
                     else {
                         if (pos == 1) {
-                            system("clear");
+                            system("cls");
                             delFirst(grupo, &length);
                             test2 = false;
                         }
                         else if (pos == length) {
-                            system("clear");
+                            system("cls");
                             delLast(grupo, &length);
                             test2 = false;
                         }
                         else {
-                            system("clear");
+                            system("cls");
                             delX(grupo, &length, pos - 1);
                             test2 = false;
                         }
@@ -364,7 +364,7 @@ int main() {
                     cout << "Digite um RG valido: ";
                     cin >> myrg;
 
-                    system("clear");
+                    system("cls");
                     findRG(grupo, length, myrg);
                 }
                 break;
