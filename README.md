@@ -1,25 +1,25 @@
-# Menu de Buscas e Operações
+# Searching and Operations Menu
 
-* Função: O script tem como objetivo realizar buscas e operações tanto em uma Lista Simples como em uma Lista Encadeada;
-* Contexto: Foi utilizado como contexto, a manipulação de dados de varios usuários, sendo eles o **Nome** e **RG**;
+* Purpose: The script should be able to search and make operations as much the simple list as a nested list;
+* Context: It was used as a context the handling data of many users, like their **Names** and **RG**;
 
 ---
-Baseando-se em um Menu com várias possibilidades de manipulação, segue abaixo as opções possíveis:
+Menu with some manipulation's features in the following lines:
 
-ID | AÇÃO
+ID | ACTION
 -- |-------------------------------------------
-1  | Insercao de um elemento no inicio da lista
-2  | Insercao de um elemento no fim da lista
-3  | Insercao de um elemento na posicao N
-4  | Retirar um elemento do inicio da lista
-5  | Retirar um elemento do fim da lista
-6  | Retirar um elemento na posicao N
-7  | Procurar um elemento com o campo RG
-8  | Imprimir a lista
-9  | Sair do sistema
+1  | Add an element at the start of the list
+2  | Add an element at the end of the list
+3  | Add an element in "N" position
+4  | Take out an element at the start of the list
+5  | Take out an element at the end of the list
+6  | Take out an element of a "N" position
+7  | Search an element by RG field
+8  | Print a List
+9  | Exit the system
 ---
 
-* Assuntos Revisados com os Scripts:
+* Reviewed Subjects by the script:
   * Functions;
   * Pointers;
   * Structs;
